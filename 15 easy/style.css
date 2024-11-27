@@ -1,0 +1,27 @@
+div#Static{
+    position: static;
+    border: 3px solid #333469;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+div#relative{
+    position: relative;
+    border: 3px solid #333469;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 200px;
+    top: 20px;
+}
+
+div#fixed{
+    position: fixed;
+    border: 3px solid #333469;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    right: 200px;
+    top: 100px;
+}
