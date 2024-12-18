@@ -1,0 +1,16 @@
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.navbar{
+    color: #c4aa16;
+    margin: 0px;
+    padding: 20px;
+    float: left;
+}
+.navbar ul{
+    color: #c4aa16;
+    float: left;
+}
