@@ -32,3 +32,83 @@
     background-color: #555;
     border-radius: 5px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a5a4a4;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fc6a0f;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a14207;
+}
+
+.footerg {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 220px;
+  }
+  
+  .footerg p {
+    margin: 0;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
