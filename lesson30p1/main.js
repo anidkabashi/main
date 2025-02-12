@@ -18,7 +18,7 @@ var ans=document.querySelector('#answer');
 
 
 button2.addEventListener("click", function(){
-    ans.innerHTML=parseInt(input1.value) + parseInt(input2.value)
+    ans.innerHTML=parseInt(input1.value) + parseInt(input2.value);
 });
 
 button.onclick=function()
