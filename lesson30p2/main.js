@@ -29,11 +29,11 @@ var oneSecond=1000;
 setInterval(showCurrentTime,oneSecond);
 
 function changeImage(){
-    var time=new Date().getHours;
+    var time=new Date().getHours();
     console.log(time);
 
     var image= "ds_clock.png";
-    var imageHTML=document.getElementById("timeImage");
+    var imageHTML=document.getElementById();
 
     if(time == wakeuptime){
         image="morning.gif";
